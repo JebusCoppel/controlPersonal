@@ -1,0 +1,8 @@
+<div class="bg-white">
+  <ng-container *ngIf="!toggleInfo; else info">
+    <recruiter-candidate-list (selectedCandidate)="onCandidateSelected($event)"></recruiter-candidate-list>
+  </ng-container>
+  <ng-template #info>
+    <recruiter-candidate-info [candidate]="selectedCandidate"></recruiter-candidate-info>
+  </ng-template>
+</div>

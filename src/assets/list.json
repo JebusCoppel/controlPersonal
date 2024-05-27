@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "name": "Jesus Antonio",
+    "firstLastName": "Zuñiga",
+    "secondLastName": "Lopez",
+    "street": "Camelia",
+    "number": "43",
+    "neighborhood": "Brisas del Valle",
+    "zipCode": "85864",
+    "phone": "6421000000",
+    "rfc": "ZULJRAA",
+    "documents": "",
+    "status": "espera",
+    "lastUpdate": "2020-04-20"
+  },
+  {
+    "id": 2,
+    "name": "Eduardo Guadalupe",
+    "firstLastName": "Robles",
+    "secondLastName": "Ley",
+    "street": "Callejon Rio",
+    "number": "1103",
+    "neighborhood": "Tierra y Libertad",
+    "zipCode": "85806",
+    "phone": "6421000000",
+    "rfc": "ROL990120",
+    "documents": "",
+    "status": "rechazado",
+    "lastUpdate": "2020-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Jose Arturo",
+    "firstLastName": "Enriquez",
+    "secondLastName": "Enriquez",
+    "street": "Palma",
+    "number": "331",
+    "neighborhood": "Sonora",
+    "zipCode": "85802",
+    "phone": "6421000000",
+    "rfc": "ENE980120",
+    "documents": "",
+    "status": "autorizado",
+    "lastUpdate": "2020-04-20"
+  },
+  {
+    "id": 1,
+    "name": "Jesus Antonio",
+    "firstLastName": "Zuñiga",
+    "secondLastName": "Lopez",
+    "street": "Camelia",
+    "number": "43",
+    "neighborhood": "Brisas del Valle",
+    "zipCode": "85864",
+    "phone": "6421000000",
+    "rfc": "ZULJRAA",
+    "documents": "",
+    "status": "espera",
+    "lastUpdate": "2020-04-20"
+  },
+  {
+    "id": 2,
+    "name": "Eduardo Guadalupe",
+    "firstLastName": "Robles",
+    "secondLastName": "Ley",
+    "street": "Callejon Rio",
+    "number": "1103",
+    "neighborhood": "Tierra y Libertad",
+    "zipCode": "85806",
+    "phone": "6421000000",
+    "rfc": "ROL990120",
+    "documents": "",
+    "status": "rechazado",
+    "lastUpdate": "2020-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Jose Arturo",
+    "firstLastName": "Enriquez",
+    "secondLastName": "Enriquez",
+    "street": "Palma",
+    "number": "331",
+    "neighborhood": "Sonora",
+    "zipCode": "85802",
+    "phone": "6421000000",
+    "rfc": "ENE980120",
+    "documents": "",
+    "status": "autorizado",
+    "lastUpdate": "2020-04-20"
+  }
+
+
+]
+

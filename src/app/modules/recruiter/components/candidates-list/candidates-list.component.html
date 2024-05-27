@@ -1,0 +1,10 @@
+<div class="w-full flex flex-col flex-wrap justify-start p-10">
+  <div (click)="onSelectCandidate(candidate)" class="w-full flex flex-row h-12 items-center bg-white rounded-lg justify-around overflow-clip hover:translate-x-5 hover:border-1 transition-all ease-in-out hover:border-slate-500 hover:border-opacity hover:shadow-lg"  *ngFor="let candidate of candidatesList">
+    <span class="w-10 max-h-12 border-neutral-500 border-2 border-opacity-20 rounded-full">
+      <img class="w-full h-full object-contain " src="../../../../../assets/candidates/userImage.png" [alt]="candidate.name+' user'">
+    </span>
+    <p class="w-4/12 text-wrap">{{candidate.name}} {{candidate.firstLastName}} {{candidate.secondLastName}}</p>
+    <p class="">{{candidate.lastUpdate}}</p>
+    <p class="w-2/12 px-5 py-2 text-white text-center rounded-md" [ngClass]="{'bg-emerald-500': candidate.status === 'autorizado', 'bg-rose-600': candidate.status === 'rechazado', 'bg-slate-600': candidate.status === 'espera'}">{{candidate.status | titlecase}}</p>
+  </div>
+</div>
